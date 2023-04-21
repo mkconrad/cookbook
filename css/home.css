@@ -1,0 +1,36 @@
+.section-title {
+    text-align: center;
+}
+
+.featured-recipes {
+    display: flex;
+}
+
+.recipes {
+    text-align: center;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#intro-heading {
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+}
+
+h3>a {
+    color:black;
+}
+
+h3>a:hover {
+    color:silver;
+}
+
+.details>p {
+    margin: 0;
+}
