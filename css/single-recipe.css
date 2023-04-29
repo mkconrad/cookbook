@@ -1,11 +1,65 @@
-body {
-    margin-left: 20px;
-}
-
-li {
+.card li {
     font-weight: 300;
 }
 
-.info>p {
-    margin: 0;
+.row {
+    display: flex;
+}
+
+.directions {
+    margin-top: 40px !important;
+}
+
+ul {
+    width: max-content;
+}
+
+.main-img {
+    margin-left: 50px;
+    height: 40vh;
+}
+
+.left {
+    width: max-content;
+    height: max-content;
+}
+
+.right {
+    padding-left: 30px;
+}
+
+.content {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+.content h1 {
+    margin: 5px 0px;
+}
+
+.content p {
+    color: dimgray;
+    margin-top: 8px;
+}
+
+.star {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.title {
+    width: fit-content;
+}
+
+.row {
+    margin-top: 40px !important;
+    width: fit-content;
+    padding-right: 40px;
 }

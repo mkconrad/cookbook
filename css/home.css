@@ -4,15 +4,17 @@
 
 .featured-recipes {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .recipes {
     text-align: center;
-}
-
-img {
-    object-fit: cover;
+    width: fit-content;
+    max-width: fit-content;
+    background-color: white;
     border-radius: 20px;
+    margin: 0px 20px;
+    padding: 20px;
 }
 
 #intro-heading {

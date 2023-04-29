@@ -1,0 +1,40 @@
+.cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cuisine-class {
+    border: 1px solid black;
+    border-radius: 20px;
+    min-width: 22%;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    min-height: 250px;
+    margin: 50px;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 21px;
+    margin-top: 0;
+}
+
+.cuisine-options>a {
+    color:dimgray;
+    text-decoration: none;
+}
+
+.cuisine-options>a:hover {
+    color:silver;
+    text-decoration: none;
+}
+
+.cuisine-options>a:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 1px;
+  }
